@@ -1,0 +1,11 @@
+@mixin flex-horizontal-gap($amount) {
+  > *:not(:last-child) {
+    margin-right: $amount;
+  }
+}
+
+@mixin flex-vertical-gap($amount) {
+  > *:not(:last-child) {
+    margin-bottom: $amount;
+  }
+}
