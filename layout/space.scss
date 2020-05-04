@@ -1,5 +1,5 @@
 $baseSpace: 8;
 
-@function space($multiplier) {
+@function space($multiplier: 1) {
   @return $baseSpace * $multiplier * 1px;
 }
