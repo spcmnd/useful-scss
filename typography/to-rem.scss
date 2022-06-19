@@ -1,0 +1,8 @@
+@use './strip-unit' as su;
+
+$html-font-size: 16px;
+
+@function rem($pxValue) {
+    @return #{su.stripUnit($pxValue) / su.stripUnit($html-font-size)}rem;
+}
+

@@ -1,0 +1,4 @@
+@function stripUnit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
